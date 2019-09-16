@@ -11,15 +11,7 @@ import java.util.NoSuchElementException;
  * @version 1.0 June 17, 2019
  */
 public class AVLBinarySearchTree<Type extends Comparable<? super Type>>
-{
-    
-    public static void main (String[] args)
-    {
-        AVLBinarySearchTree<String> t = new AVLBinarySearchTree<>();
-        t.add("a");
-        t.remove("b");
-    }
-    
+{   
     /** Root node in the tree */
     private AVLNode root;
 
